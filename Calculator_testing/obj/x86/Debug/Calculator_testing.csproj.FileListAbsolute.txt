@@ -1,0 +1,12 @@
+D:\Projects\Calculator_testing\Calculator_testing\bin\Debug\Calculator_testing.rxtmg
+D:\Projects\Calculator_testing\Calculator_testing\bin\Debug\Calculator_testing.rxtst
+D:\Projects\Calculator_testing\Calculator_testing\bin\Debug\Calculator_testing.exe.config
+D:\Projects\Calculator_testing\Calculator_testing\bin\Debug\Calculator_testing.xml
+D:\Projects\Calculator_testing\Calculator_testing\bin\Debug\Calculator_testing.exe
+D:\Projects\Calculator_testing\Calculator_testing\bin\Debug\Calculator_testing.pdb
+D:\Projects\Calculator_testing\Calculator_testing\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Projects\Calculator_testing\Calculator_testing\obj\x86\Debug\Calculator_testing.csproj.AssemblyReference.cache
+D:\Projects\Calculator_testing\Calculator_testing\obj\x86\Debug\Calculator_testing.csproj.CoreCompileInputs.cache
+D:\Projects\Calculator_testing\Calculator_testing\obj\x86\Debug\Calculator_testing.csproj.CopyComplete
+D:\Projects\Calculator_testing\Calculator_testing\obj\x86\Debug\Calculator_testing.exe
+D:\Projects\Calculator_testing\Calculator_testing\obj\x86\Debug\Calculator_testing.pdb

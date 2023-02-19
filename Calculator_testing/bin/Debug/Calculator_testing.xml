@@ -1,0 +1,2745 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculator_testing</name>
+    </assembly>
+    <members>
+        <member name="T:Calculator_testing.AppLunch">
+             <summary>
+            The AppLunch recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.AppLunch.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.AppLunch.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.AppLunch.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.AppLunch.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.AppLunch.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.AppLunch.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.AppLunch.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Calculator_testingRepository">
+            <summary>
+            The class representing the Calculator_testingRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Calculator_testingRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Calculator_testingRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepository.Калькулятор">
+            <summary>
+            The Калькулятор folder.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Calculator_testingRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Calculator_testingRepositoryFolders.КалькуляторAppFolder">
+            <summary>
+            The КалькуляторAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Calculator_testingRepositoryFolders.КалькуляторAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Калькулятор  folder.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.КалькуляторAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.КалькуляторAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.КалькуляторAppFolder.SomeContainer">
+            <summary>
+            The SomeContainer folder.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder">
+            <summary>
+            The SomeContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SomeContainer  folder.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button1">
+            <summary>
+            The Button1 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button1Info">
+            <summary>
+            The Button1 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button2">
+            <summary>
+            The Button2 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button2Info">
+            <summary>
+            The Button2 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button3">
+            <summary>
+            The Button3 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button3Info">
+            <summary>
+            The Button3 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonPlus">
+            <summary>
+            The ButtonPlus item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonPlusInfo">
+            <summary>
+            The ButtonPlus item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonPlus1">
+            <summary>
+            The ButtonPlus1 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonPlus1Info">
+            <summary>
+            The ButtonPlus1 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button0">
+            <summary>
+            The Button0 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button0Info">
+            <summary>
+            The Button0 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button">
+            <summary>
+            The Button item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonInfo">
+            <summary>
+            The Button item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonEq">
+            <summary>
+            The ButtonEq item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonEqInfo">
+            <summary>
+            The ButtonEq item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button4">
+            <summary>
+            The Button4 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button4Info">
+            <summary>
+            The Button4 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button5">
+            <summary>
+            The Button5 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button5Info">
+            <summary>
+            The Button5 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button6">
+            <summary>
+            The Button6 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button6Info">
+            <summary>
+            The Button6 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button7">
+            <summary>
+            The Button7 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button7Info">
+            <summary>
+            The Button7 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button71">
+            <summary>
+            The Button71 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button71Info">
+            <summary>
+            The Button71 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button8">
+            <summary>
+            The Button8 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button8Info">
+            <summary>
+            The Button8 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button9">
+            <summary>
+            The Button9 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button9Info">
+            <summary>
+            The Button9 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonAsterisk">
+            <summary>
+            The ButtonAsterisk item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonAsteriskInfo">
+            <summary>
+            The ButtonAsterisk item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button1X">
+            <summary>
+            The Button1X item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button1XInfo">
+            <summary>
+            The Button1X item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonXSq">
+            <summary>
+            The ButtonXSq item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonXSqInfo">
+            <summary>
+            The ButtonXSq item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonX">
+            <summary>
+            The ButtonX item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonXInfo">
+            <summary>
+            The ButtonX item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button10">
+            <summary>
+            The Button10 item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Button10Info">
+            <summary>
+            The Button10 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonPercent">
+            <summary>
+            The ButtonPercent item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonPercentInfo">
+            <summary>
+            The ButtonPercent item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonC">
+            <summary>
+            The ButtonC item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.ButtonCInfo">
+            <summary>
+            The ButtonC item info.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.Backspase">
+            <summary>
+            The Backspase item.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Calculator_testingRepositoryFolders.SomeContainerFolder.BackspaseInfo">
+            <summary>
+            The Backspase item info.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Clear">
+             <summary>
+            The Clear recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Clear.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Clear.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Clear.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Clear.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Clear.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Clear.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Clear.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.CloseApp">
+             <summary>
+            The CloseApp recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.CloseApp.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.CloseApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.CloseApp.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.CloseApp.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.CloseApp.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.CloseApp.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.CloseApp.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Dellay">
+             <summary>
+            The Dellay recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Dellay.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Dellay.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Dellay.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Dellay.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Dellay.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Dellay.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Dellay.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Test1DivX0">
+             <summary>
+            The Test1DivX0 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Test1DivX0.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivX0.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Test1DivX0.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivX0.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Test1DivX0.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivX0.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Test1DivX0.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Test1DivXNf">
+             <summary>
+            The Test1DivXNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Test1DivXNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Test1DivXNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Test1DivXNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Test1DivXNothing">
+             <summary>
+            The Test1DivXNothing recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Test1DivXNothing.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNothing.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Test1DivXNothing.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNothing.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Test1DivXNothing.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNothing.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNothing.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Test1DivXNu">
+             <summary>
+            The Test1DivXNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Test1DivXNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Test1DivXNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Test1DivXNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Test1DivXPf">
+             <summary>
+            The Test1DivXPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Test1DivXPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Test1DivXPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Test1DivXPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.Test1DivXPu">
+             <summary>
+            The Test1DivXPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.Test1DivXPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.Test1DivXPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.Test1DivXPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.Test1DivXPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestBackspace">
+             <summary>
+            The TestBackspace recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestBackspace.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestBackspace.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestBackspace.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestBackspace.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestBackspace.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestBackspace.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestBackspace.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestClean">
+             <summary>
+            The TestClean recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestClean.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestClean.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestClean.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestClean.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestClean.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestClean.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestClean.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestDivision00">
+             <summary>
+            The TestDivision00 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestDivision00.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivision00.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestDivision00.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivision00.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestDivision00.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivision00.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestDivision00.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestDivisionNfNf">
+             <summary>
+            The TestDivisionNfNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestDivisionNfNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNfNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestDivisionNfNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNfNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestDivisionNfNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNfNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNfNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestDivisionNuNf">
+             <summary>
+            The TestDivisionNuNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestDivisionNuNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestDivisionNuNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestDivisionNuNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestDivisionNuNu">
+             <summary>
+            The TestDivisionNuNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestDivisionNuNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestDivisionNuNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestDivisionNuNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionNuNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestDivisionPfPf">
+             <summary>
+            The TestDivisionPfPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestDivisionPfPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPfPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestDivisionPfPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPfPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestDivisionPfPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPfPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPfPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestDivisionPuPf">
+             <summary>
+            The TestDivisionPuPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestDivisionPuPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestDivisionPuPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestDivisionPuPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestDivisionPuPu">
+             <summary>
+            The TestDivisionPuPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestDivisionPuPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestDivisionPuPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestDivisionPuPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestDivisionPuPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestExp0">
+             <summary>
+            The TestExp0 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestExp0.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExp0.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestExp0.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExp0.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestExp0.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExp0.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestExp0.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestExpNf">
+             <summary>
+            The TestExpNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestExpNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestExpNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestExpNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestExpNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestExpNothing">
+             <summary>
+            The TestExpNothing recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestExpNothing.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNothing.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestExpNothing.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNothing.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestExpNothing.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNothing.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestExpNothing.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestExpNu">
+             <summary>
+            The TestExpNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestExpNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestExpNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestExpNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestExpNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestExpPf">
+             <summary>
+            The TestExpPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestExpPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestExpPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestExpPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestExpPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestExpPu">
+             <summary>
+            The TestExpPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestExpPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestExpPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestExpPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestExpPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestExpPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestMultiplication00">
+             <summary>
+            The TestMultiplication00 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestMultiplication00.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplication00.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestMultiplication00.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplication00.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestMultiplication00.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplication00.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplication00.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestMultiplicationNfNf">
+             <summary>
+            The TestMultiplicationNfNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestMultiplicationNfNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNfNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestMultiplicationNfNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNfNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestMultiplicationNfNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNfNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNfNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestMultiplicationNuNf">
+             <summary>
+            The TestMultiplicationNuNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestMultiplicationNuNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestMultiplicationNuNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestMultiplicationNuNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestMultiplicationNuNu">
+             <summary>
+            The TestMultiplicationNuNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestMultiplicationNuNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestMultiplicationNuNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestMultiplicationNuNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationNuNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestMultiplicationPfPf">
+             <summary>
+            The TestMultiplicationPfPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestMultiplicationPfPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPfPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestMultiplicationPfPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPfPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestMultiplicationPfPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPfPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPfPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestMultiplicationPuPf">
+             <summary>
+            The TestMultiplicationPuPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestMultiplicationPuPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestMultiplicationPuPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestMultiplicationPuPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestMultiplicationPuPu">
+             <summary>
+            The TestMultiplicationPuPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestMultiplicationPuPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestMultiplicationPuPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestMultiplicationPuPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestMultiplicationPuPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercent00">
+             <summary>
+            The TestPercent00 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercent00.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercent00.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercent00.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercent00.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercent00.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercent00.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercent00.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercentNfNf">
+             <summary>
+            The TestPercentNfNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercentNfNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNfNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercentNfNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNfNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercentNfNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNfNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNfNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercentNothingNothing">
+             <summary>
+            The TestPercentNothingNothing recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercentNothingNothing.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNothingNothing.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercentNothingNothing.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNothingNothing.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercentNothingNothing.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNothingNothing.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNothingNothing.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercentNuNf">
+             <summary>
+            The TestPercentNuNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercentNuNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercentNuNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercentNuNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercentNuNu">
+             <summary>
+            The TestPercentNuNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercentNuNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercentNuNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercentNuNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercentNuNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercentPfPf">
+             <summary>
+            The TestPercentPfPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercentPfPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPfPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercentPfPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPfPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercentPfPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPfPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPfPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercentPuPf">
+             <summary>
+            The TestPercentPuPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercentPuPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercentPuPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercentPuPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPercentPuPu">
+             <summary>
+            The TestPercentPuPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPercentPuPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPercentPuPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPercentPuPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPercentPuPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPlusMinusNegative">
+             <summary>
+            The TestPlusMinusNegative recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPlusMinusNegative.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusNegative.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPlusMinusNegative.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusNegative.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPlusMinusNegative.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusNegative.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusNegative.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestPlusMinusPositive">
+             <summary>
+            The TestPlusMinusPositive recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestPlusMinusPositive.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusPositive.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestPlusMinusPositive.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusPositive.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestPlusMinusPositive.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusPositive.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestPlusMinusPositive.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSqrt0">
+             <summary>
+            The TestSqrt0 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSqrt0.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrt0.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSqrt0.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrt0.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSqrt0.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrt0.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSqrt0.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSqrtNf">
+             <summary>
+            The TestSqrtNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSqrtNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSqrtNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSqrtNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSqrtNothing">
+             <summary>
+            The TestSqrtNothing recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSqrtNothing.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNothing.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSqrtNothing.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNothing.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSqrtNothing.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNothing.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNothing.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSqrtNu">
+             <summary>
+            The TestSqrtNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSqrtNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSqrtNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSqrtNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSqrtPf">
+             <summary>
+            The TestSqrtPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSqrtPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSqrtPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSqrtPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSqrtPu">
+             <summary>
+            The TestSqrtPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSqrtPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSqrtPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSqrtPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSqrtPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSubtraction00">
+             <summary>
+            The TestSubtraction00 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSubtraction00.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtraction00.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSubtraction00.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtraction00.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSubtraction00.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtraction00.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSubtraction00.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSubtractionNfNf">
+             <summary>
+            The TestSubtractionNfNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSubtractionNfNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNfNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSubtractionNfNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNfNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSubtractionNfNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNfNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNfNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSubtractionNuNf">
+             <summary>
+            The TestSubtractionNuNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSubtractionNuNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSubtractionNuNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSubtractionNuNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSubtractionNuNu">
+             <summary>
+            The TestSubtractionNuNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSubtractionNuNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSubtractionNuNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSubtractionNuNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionNuNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSubtractionPfPf">
+             <summary>
+            The TestSubtractionPfPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSubtractionPfPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPfPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSubtractionPfPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPfPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSubtractionPfPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPfPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPfPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSubtractionPuPf">
+             <summary>
+            The TestSubtractionPuPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSubtractionPuPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSubtractionPuPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSubtractionPuPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSubtractionPuPu">
+             <summary>
+            The TestSubtractionPuPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSubtractionPuPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSubtractionPuPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSubtractionPuPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSubtractionPuPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSumm00">
+             <summary>
+            The TestSumm00 recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSumm00.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSumm00.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSumm00.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSumm00.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSumm00.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSumm00.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSumm00.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSummNfNf">
+             <summary>
+            The TestSummNfNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSummNfNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNfNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSummNfNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNfNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSummNfNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNfNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSummNfNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSummNuNf">
+             <summary>
+            The TestSummNuNf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSummNuNf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSummNuNf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSummNuNf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSummNuNu">
+             <summary>
+            The TestSummNuNu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSummNuNu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSummNuNu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSummNuNu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSummNuNu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSummPfPf">
+             <summary>
+            The TestSummPfPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSummPfPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPfPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSummPfPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPfPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSummPfPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPfPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSummPfPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSummPuPf">
+             <summary>
+            The TestSummPuPf recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSummPuPf.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPf.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSummPuPf.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPf.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSummPuPf.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPf.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPf.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator_testing.TestSummPuPu">
+             <summary>
+            The TestSummPuPu recording.
+             </summary>
+        </member>
+        <member name="F:Calculator_testing.TestSummPuPu.repo">
+            <summary>
+            Holds an instance of the Calculator_testingRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator_testing.TestSummPuPu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator_testing.TestSummPuPu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator_testing.TestSummPuPu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="970f030b-da85-4948-bc62-b5d634b6f2a0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AppLunch"
+	namespace="Calculator_testing">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				CalcApp.exe
+			</filename>
+			<workingdir>
+				D:\Projects\Calculator\CalcApp\bin\Debug
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="5fe3686c-f498-436c-adca-8ed40f1450bc"
+	name="Calculator_testingRepository"
+	relativepath="Calculator_testingRepository.rxrep">
+		<codegen
+		classname="Calculator_testingRepository"
+		namespace="Calculator_testing">
+		</codegen>
+		<rootfolder
+		id="2590afdc-baf2-4f86-af91-d3dc88cc04e5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AppLunch.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="da95f72a-46f5-4bf8-84be-ac9e360f9b77"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseApp"
+	namespace="Calculator_testing">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="30000ms"
+		method="KillProcess"
+		optional="False"
+		searchpropertyid="b23f010f-3264-4be2-968b-30f2fb9fe8ca">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0f52ff72-d2f2-4af5-bd78-3784ab2a9cfa"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@automationid='']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="5fe3686c-f498-436c-adca-8ed40f1450bc"
+	name="Calculator_testingRepository"
+	relativepath="Calculator_testingRepository.rxrep">
+		<codegen
+		classname="Calculator_testingRepository"
+		namespace="Calculator_testing">
+		</codegen>
+		<rootfolder
+		id="2590afdc-baf2-4f86-af91-d3dc88cc04e5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
